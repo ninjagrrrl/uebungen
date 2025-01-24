@@ -1,0 +1,15 @@
+article {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 10px;
+  }
+
+
+  /* mit text aline lösen? */

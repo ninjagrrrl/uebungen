@@ -1,0 +1,35 @@
+img {
+    width: 400px;
+}
+
+/* nicht-responsive */
+
+img:nth-of-type(2) {
+    width: 50%;
+}
+
+/* responsive */
+
+img:nth-of-type(3) {
+    width: 20em;
+}
+
+/* nicht-responsive */
+
+img:nth-of-type(4) {
+    width: 40rem;
+}
+
+/* responsive */
+
+img:nth-of-type(5) {
+    width: 35vw;
+}
+
+/* responsive */
+
+img:nth-of-type(6) {
+    width: 75vh;
+}
+
+/* responsive */

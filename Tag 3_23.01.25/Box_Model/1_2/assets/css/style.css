@@ -1,0 +1,11 @@
+p {
+    background-color: coral;
+    width: 30rem;
+    padding: 1.5rem;
+    margin: 4rem auto;
+    border: 10px solid pink;
+    border-spacing: 0 10px;
+    border-left: 2px solid 4px solid;
+    border-right: 2px solid 4px solid;
+    border-style: double;
+}

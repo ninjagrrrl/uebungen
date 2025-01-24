@@ -1,0 +1,75 @@
+h1 {
+    width: 30rem;
+    text-align: center;
+    margin: 4rem auto;
+    padding: 1rem;
+    border: 0.2rem dashed coral;
+    border-radius: 15px;
+    font-family: Avenir Next condensed;
+    font-size: 2.3rem;
+}
+
+p {
+    width: 32rem;
+    margin: 4rem auto;
+    padding: 1.4rem;
+    border: 0.2rem solid mediumaquamarine;
+    color: hotpink;
+    font-family: Avenir Next;
+    font-style: italic;
+    font-weight: 260;
+}
+
+h2 {
+    width: 20rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgb(255,127,80)
+}
+
+ol {
+    width: 20rem;
+    margin: 4rem auto;
+    padding: 1.3rem;
+    border: 0.2rem dotted darkcyan;
+    text-decoration: underline magenta;
+    font-family: Avenir Next Condensed;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+h3 {
+    width: 10rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    text-align: center;
+    border: 0.8rem solid turquoise;
+    border-radius: 25px;
+    border-style: double;
+    text-transform: uppercase;
+
+}
+
+ul {
+    width: 20rem;
+    margin: 4rem auto;
+    padding: 1.3rem;
+    border: 0.2rem dotted darkcyan;
+    text-decoration: underline magenta;
+    font-family: Avenir Next Condensed;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+p:hover:first-letter {
+    color: rgb(221, 18, 221);
+    font-size: 3.5rem;
+    font-family: Times New Roman;
+    font-style: italic;
+    line-height: 0.1;
+  }
+
+/* reminder to self: line-height: innerhalb des hover-elements macht, dass der abstand zwischen der ersten und zweiten zeile nicht größer wird
+wenn der erste buchstabe beim hovern größer wird. */

@@ -1,0 +1,43 @@
+h1 {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-p {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: #FF7F50;
+    font-family: Arial;
+    text-align: center;
+    display: inline-block;
+}
+
+.second-p {
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: url(https://images.unsplash.com/photo-1737405555489-78b3755eaa81?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: Arial;
+    text-align: center;
+    display: inline-block;
+}
+
+.third-p {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: linear-gradient(transparent, #006D5B);
+    font-family: Arial;
+    text-align: center;
+    
+}
+
+.backgrounds {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
