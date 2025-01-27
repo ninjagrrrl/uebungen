@@ -1,0 +1,72 @@
+
+h1:first-letter {
+    font-size: 4rem;
+    color: purple;
+    letter-spacing: -0.1em;
+}
+
+body {
+    width: 30rem;
+    margin: auto;
+}
+
+h1:hover::first-letter {
+    color: rgb(243, 69, 69);
+}
+
+li {
+    list-style: none;
+}
+
+li:nth-child(-n+2)::marker  {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/check.png);
+}
+
+li:nth-child(-n+2) {
+    text-decoration: line-through;
+}
+
+li:first-child::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/gym.png)
+}
+
+li:nth-of-type(2)::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/bill.png)
+}
+
+li:nth-child(3)::marker,
+li:nth-child(4)::marker {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/doing.png);
+}
+
+li:nth-child(3),
+li:nth-child(4) {
+    background-color: lightpink;
+}
+
+li:nth-child(3)::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/dance.png)
+}
+
+
+li:nth-child(4)::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/eat.png)
+}
+
+li:nth-child(5)::marker,
+li:nth-child(6)::marker {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/no.png)
+}
+
+li:nth-child(5),
+li:nth-child(6) {
+    text-decoration: underline;
+}
+
+li:nth-child(5)::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/book.png)
+}
+
+li:nth-child(6)::after {
+    content: url(../logos/Lev1_3_css-einführung_pseudo-element_logos/organize.png)
+}
