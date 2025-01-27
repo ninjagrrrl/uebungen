@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: white;
+    background-size: 100%;
+    width: 1440px;
+    height: 3221.06px;
+}
+
+header {
+    background-color: #333333;
+    height: 694px;
+    width: 1440px;
+    font-family: Maven Pro;
+    font-weight: 700;
+    font-size: 17.6px;
+    line-height: 20.68px;
+    letter-spacing: 4px;
+}
+
+header p {
+    width: 74.27px;
+    height: 41px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #949494;
+
+}
+
+header section {
+    width: 300px;
+    height: 227px;
+    position: absolute;
+    top: 126px;
+    left: 570px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(45deg, rgba(255, 0, 255, 0.475) 20%, rgba(39, 39, 240, 0.88) 50%, #48CEFA 100%);
+
+}
+
+
+header section img {
+    width: 300px;
+    height: 153px;
+    top: 126px;
+    left: 570px;
+}
+
+header section p {
+    position: absolute;
+    width: 237.21px;
+    height: 38px;
+    top: 169px;
+    left: 32.7px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Maven Pro;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+    letter-spacing: normal;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+nav {
+    width: 1440px;
+    height: 140px;
+    position: absolute;
+    top: 383px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+nav > a {
+    font-family: Maven Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8C8C8C;
+    text-decoration: none;
+    min-width: 20px;
+
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+    transition: color 0.3s ease;
+}
+
+nav > a:nth-of-type(1) {
+    width: 58.61px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    left: 1358.59px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav > a:nth-of-type(2) {
+    width: 88.27px;
+    height: 19px;
+    position: absolute;
+    top: 43px;
+    left: 1328.93px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav > a:nth-of-type(3) {
+    width: 46.18px;
+    height: 19px;
+    position: absolute;
+    top: 78px;
+    left: 1371.02px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+nav > a:nth-of-type(4) {
+    width: 56.72px;
+    height: 19px;
+    position: absolute;
+    top: 113px;
+    left: 1360.48px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+main {
+    background-color: #ffffff;
+    height: 2227.06px;
+    width: 1390px;
+    position: absolute;
+    top: 994px;
+    left: 50px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+main img {
+    width: 757px;
+    height: 102px;
+}
+
+main h2 {
+    width: 333.58px;
+    height: 64.5px;
+    top: 85px;
+    position: absolute;
+    font-family: Times;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64.39px;
+    letter-spacing: 2px;
+}
+
+main p {
+    width: 691.66px;
+    height: 76px;
+    position: absolute;
+    top: 205.5px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Maven Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.section1 img {
+    width: 695px;
+    height: 434.38px;
+    position: absolute;
+    top: 497.5px;
+    left: 347.5px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.section2 img {
+    width: 695px;
+    height: 390.94px;
+    position: absolute;
+    top: 1115.38px;
+    left: 347.5px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.section3 img {
+    width: 695px;
+    height: 423.75px;
+    position: absolute;
+    top: 1699.81px;
+    left: 347.5px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+h3 {
+    font-family: Times;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.8px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.section1 h3 {
+    width: 79.06px;
+    height: 37px;
+    position: absolute;
+    top: 967.88px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.section2 h3 {
+    width: 156.26px;
+    height: 37px;
+    position: absolute;
+    top: 1552.31px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.section3 h3 {
+    width: 219.78px;
+    height: 37px;
+    position: absolute;
+    top: 2159.56px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;   
+}
+
+section p {
+    font-family: Times;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.section1 p {
+    width: 88.9px;
+    height: 18.5px;
+    position: absolute;
+    top: 1016.88px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.section2 p {
+    width: 207.29px;
+    height: 18.5px;
+    position: absolute;
+    top: 1601.31px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.section3 p {
+    width: 186.45px;
+    height: 18.5px;
+    position: absolute;
+    top: 2208.56px;
+    left: 347.5px;
+    gap: 0px;
+    opacity: 0px;
+}

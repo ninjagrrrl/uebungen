@@ -1,0 +1,18 @@
+
+
+img {
+    width: 70%;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30%;
+    height: auto;
+}
+
+  article {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 60%;
+  }
