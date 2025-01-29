@@ -1,0 +1,14 @@
+fieldset {
+    border: 2px lightsalmon solid;
+}
+
+
+legend {
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+input[type=submit],
+button {
+margin-top: 0.5rem;
+}

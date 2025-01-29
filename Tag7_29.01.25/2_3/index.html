@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- BAUSTELLE -->
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            
+            
+            <div class="inlineleft"><label for="name">Name</label></div>
+            <div class="right"><input id="name" type="text" placeholder="Name"></div>
+            
+
+            <div class="inlineleft"><label for="surname">Surname</label></div>
+            <input id="surname" type="text" placeholder="Surname">
+            
+
+            <div class="left"><label for="mail">Email:</label></div>
+            <input id="mail" type="email" placeholder="email">
+            
+            <div class="left"></div><p>Gender</p></div>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input id="female" type="radio" name="gender" value="female" checked>
+            <label for="female">Female</label>
+
+            <div class="left"><label for="file">Picture</label></div>
+            <input type="file" id="file">
+
+            <div class="left"><label for="country">Country</label></div>
+            <select id="country">
+               <option value="ger">Germany</option>
+               <option value="fr">France</option>
+               <option value="usa">USA</option>
+
+            <div class="left"><label for="lang">Preferred languages</label></div>
+               <select name="lang" id="lang" multiple>
+                 <option value="html">HTML</option>
+                 <option value="css">CSS</option>
+                 <option value="js">JS</option>
+                 <option value="react">React</option>
+               </select>
+            
+            <div class="left"><p>Field of activity</p></div>
+            <label for="it">IT</label>
+            <input type="checkbox" id="it">
+
+            <label for="design">Design</label>
+            <input type="checkbox" id="design">
+
+            <label for="other">Other</label>
+            <input type="checkbox" id="other">
+
+            <div class="left"><input type="submit" value="submit"></div>
+            <button>Cancel</button>
+
+
+
+
+        </fieldset>
+
+
+    </form>
+    
+</body>
+</html>

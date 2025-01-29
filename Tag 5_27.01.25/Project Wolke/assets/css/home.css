@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poiret_One";
+    src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf)
+}
+
+.wrapper {
+    background-color: white;
+}
+
+nav {
+    width: 58px;
+    height: 19px;
+    right: 130px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    float: right;
+    top: 61px;
+    font-family: "Poiret_One";
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container  {
+    width: 646.81px;
+    height: 433px;
+    position: relative;
+    top: 174px;
+    left: 397px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.text {
+    width: 416.59px;
+    height: 45px;
+    position: absolute;
+    top: 361px;
+    left: 512.61px;
+
+}
+
