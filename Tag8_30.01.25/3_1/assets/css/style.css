@@ -1,0 +1,140 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf)
+}
+
+
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url(../fonts/Raleway/static/Raleway-Thin.ttf)
+}
+
+.wrapper {
+    background-image: url(../img/photo-1443527216320-7e744084f5a7-1.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    font-family: Raleway;
+}
+
+
+header {
+    display: flex;
+    padding: 0 186px;
+    justify-content: space-between;
+    align-items: center;
+    height: 77px;
+}
+
+header article {
+    display: flex;
+    font-family: "Raleway-Thin";
+    gap: 0 20px;
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header article:hover {
+    color:rgb(181, 190, 188);
+    transition: 0.3s;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 0 57px;
+    color: #4C4C4C;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+header ul:hover {
+    color:rgb(181, 190, 188);
+    transition: 0.3s;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main article h1 {
+    display: flex;
+    width: 951.981px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+
+main article h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+button {
+    padding: 15px 60px;
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+.download {
+    background: transparent;
+    border: white 2px solid
+}
+
+.download:hover {
+    background-color: #ffffff;
+    color: #4C4C4C;
+    transition: 0.3s;
+}
+
+
+
+.read {
+    background-color: #745CF9;
+    border: none;
+}
+
+.read:hover {
+    background-color: #4e3dad;
+    transition: 0.3s;
+}

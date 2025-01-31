@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    background-image: url(https://images.unsplash.com/photo-1506104489822-562ca25152fe?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    background-color:rgba(83, 87, 90, 0.253);
+    font-family: Avenir Next medium;
+    color:rgb(221, 233, 244);
+    justify-content: space-between;
+    height: 4.4rem;
+    padding: 2vh 3vw;
+}
+
+header article {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 0 30px;
+}
