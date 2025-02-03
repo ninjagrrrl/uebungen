@@ -1,0 +1,36 @@
+
+.layout {
+    min-height: 98vh;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    color:white;
+
+}
+
+.header {
+    background-color: blue;
+    grid-column: 1 / -1;
+}
+
+.aside {
+    background-color: green;
+    grid-column: 1 / -4;
+    grid-row: 2 / 17;
+
+}
+
+
+.main {
+    background-color: red;
+    grid-column: 2 / -1;
+    grid-row: 2 / 17;
+
+
+}
+
+.footer {
+    background-color: purple;
+    grid-column: 1 / 5;
+}

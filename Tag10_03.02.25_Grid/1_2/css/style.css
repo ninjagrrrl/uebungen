@@ -1,0 +1,77 @@
+/* LAYOUT 1 */
+
+.layout1 {
+    min-height: 60vh;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
+
+}
+
+.block1 {
+    background-color: red;
+    border-radius: 8px;
+    grid-column: 1 / -1;
+}
+
+.block2 {
+    background-color: blue;
+    border-radius: 10px;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.block3 {
+    background-color: green;
+    border-radius: 10px;
+    grid-column: 3 / -1;
+
+}
+
+.block4,
+.block5 {
+    background-color: purple;
+    border-radius: 10px;
+
+}
+
+/* LAYOUT 2 */
+.layout2 {
+    min-height: 60vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: thistle;
+    border-radius: 50px;
+    grid-row: 1 / span 3;
+}
+
+
+.box5,
+.box6 {
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    grid-row: 1 / span 6;
+}
+
+.box7,
+.box8,
+.box9 {
+    background-color: mediumvioletred;
+    border-radius: 50px;
+    grid-column: 3 / -2 ;
+
+}
+
+.box1,
+.box2 {
+    grid-row: 1 / span 6;
+}
