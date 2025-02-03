@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "Lato-reg";
+    src:url(../fonts/Lato/Lato-Regular.ttf)
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 10%;
+    padding: 2vh 3vw;
+    background-color: #ffffff;
+    font-family: "Lato-reg";
+    color: rgb(0,0,8);
+}
+
+header .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-left: 3vw;
+}
+
+header .logo h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-left: 5vw;
+    font-size: 16px;
+}
+
+
+header div {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-size: 16px;
+}
+
+
+.wrapper {
+    background-color: #D9E8E5;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: "Lato-reg";
+    font-size: 24px;
+    margin-top: 10vh;
+    margin-right: 55vw;
+}
+
+/* sobald  eine schrift o.ä. auf einem bild liegt, kann man davon ausgehen, dass das bild ein "hintergrund" ist. d.h. man muss es in css einfügen, ansonsten bekommt man probleme schrift draufzuklatschen.*/
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    flex-wrap: wrap;
+    gap: 1vw;
+    width: 100%;
+}
+
+
+.ring1 {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring001.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+}
+
+section div .price {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: flex-end;
+}
+
+.ring2  {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring002.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+
+}
+
+.ring3 {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring003.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+
+}
+
+.ring4 {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring004.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+
+}
+
+.ring5 {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring005.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+
+}
+
+.ring6 {
+    background-image: url(../img/css_vertiefung_flexbox_level_3_2/ring006.png.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 22vh;
+}
+
+
+.wrapper {
+    height: 100vh;  /* Stattdessen height: 100vh */
+    overflow: hidden;  /* Verhindert Scrollbars */
+    display: flex;
+    align-content: flex-start;  
+    justify-content: center;
+}
+

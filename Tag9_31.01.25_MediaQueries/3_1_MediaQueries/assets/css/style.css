@@ -1,0 +1,337 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* COLORS */
+    --text-color: #4C4C4C;
+    --btn-color: #745CF9;
+
+    /* SPACING */
+    --spacing-lr: 6vw;
+
+    /* FONTS */
+
+
+
+
+}
+
+
+body, html {
+    height: 100%;
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf)
+}
+
+
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url(../fonts/Raleway/static/Raleway-Thin.ttf)
+}
+
+img {
+    width: 100%;
+}
+
+
+/* HEADER + NAV */
+
+
+
+header {
+    display: flex;
+    padding: 0 6vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
+}
+
+header article {
+    display: flex;
+    font-family: "Raleway-Thin";
+    gap: 0 20px;
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header article:hover {
+    color:rgb(181, 190, 188);
+    transition: 0.3s;
+    cursor: default;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 0 3vw;
+    color: #4C4C4C;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+header li:hover {
+    color:rgb(181, 190, 188);
+    transition: 0.3s;
+    cursor: default;
+}
+
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: default;
+    display: none;
+}
+
+.burger div {
+    height: 5px;
+    width: 30px;
+    background-color: black;
+}
+
+/* MAIN ARTICLE */
+
+.wrapper {
+    background-image: url(../img/photo-1443527216320-7e744084f5a7-1.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    font-family: Raleway;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main article h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 64px;
+    margin-bottom: 20px;
+}
+
+main article p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+article div .btn-purple,
+article div .btn-white {
+    width: 190px;
+    padding: 15px 40px;
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: default;
+
+}
+
+.btn-white {
+    background: transparent;
+    border: white 2px solid
+}
+
+article .btn-white:hover {
+    background-color: #ffffff;
+    color: #4C4C4C;
+    transition: 0.3s;
+}
+
+
+.btn-purple {
+    display: flex;
+    justify-content: center;
+    background-color: var(--btn-color);
+    border: none;
+    border: var(--btn-color) 2px solid;
+}
+
+.btn-purple:hover {
+    background-color: #4e3dad;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    header article  {
+        font-size: 15px;
+    }
+
+    header ul {
+        font-size: 10px;
+    }
+
+}
+    
+@media screen and (max-width: 550px) {
+    
+    header article  {
+        font-size: 15px;
+    }
+
+        nav ul {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        cursor: pointer;
+
+    }
+    
+    .burger div {
+        height: 3px;
+        width: 30px;
+        margin: 1px;
+        background-color: black;
+    }
+}
+    
+
+/* MAIN */
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw var(--spacing-lr);
+    max-width: 1300px;
+    margin: auto;
+}
+
+.laptop img
+.laptop div {
+    width: 50%;
+
+}
+
+.laptop img {
+    object-fit: contain;
+}
+
+.left div {
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.reverse div {
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.laptop div h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.laptop div p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.btn-purple {
+    width: 190px;
+    padding: 15px 40px;
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+/* PARALLAX SECTION */
+
+.parallax {
+    background: url(../img/projekt-imgs/parallax.jpeg) no-repeat center / cover;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 0 var(--spacing-lr);
+
+    color: #FFFFFF;
+    /* margin-bottom: 100vh; */
+
+    /* PARALLAX EFFEKT */
+    background-attachment: fixed;
+
+}
+
+parallax div {
+    max-width: 900px;
+
+}
+
+.parallax h2 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.parallax p {
+    font-size: 14px;
+    
+}
+
+/* OPTIONS SECTION */
+
+/* PROJECTS SECTION  */
+
+/* CUSTOMERS SECTION */
+
+/* CLIENTS SECTION  */
+
+/* WORDPRESS SECTION */
+
+/* FOOTER  */
+
+
