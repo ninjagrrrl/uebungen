@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+
+}
+
+
+
+
+/* body {
+    width: 1300px;
+    margin: auto;
+} */
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Work_Sans";
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+html {
+    color: #ffffff;
+}
+
+/* HEADER */
+/* header {
+    height: 94vh;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 300px;
+} */
+
+header {
+    flex: 0 0 auto;
+    min-height: 94vh;
+    max-height: 100vh;
+    margin-bottom: 20vh;
+}
+
+.wrapper article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    min-height: 50vh;
+    max-height: 65vh; /* -min und max height angabe innerhalb eines elements ist angabe 
+    -für wie groß die height max auf großem bildschirm und min auf kleinerem sein soll  */
+}
+
+
+
+
+article p:nth-of-type(2),
+article p:nth-of-type(3) {
+    font-family: "Work_Sans";
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+article p:nth-of-type(1),
+article p:nth-of-type(4) {
+    font-family: "Work_Sans";
+    font-size: 20px;
+    font-weight: 400px;
+    letter-spacing: -0,5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article p:nth-of-type(1) {
+    padding-bottom: 15px;
+}
+
+article p:nth-of-type(4) {
+    padding-top: 15px;
+}
+
+article p:nth-of-type(3) {
+    color: rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 4px 4px rgba(16, 15, 15, 0.25);
+    letter-spacing: 2px;
+}
+
+
+.wrapper aside {
+    flex: 0 0 auto;
+    min-height: 20vh;
+    max-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact a {
+    font-family: "Work_Sans";
+    font-size: 20px;
+
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    border: 2px white solid;
+    padding: 15px 30px;
+}
+
+aside {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;  /* gewünschte maximale Breite */
+    width: 80%;        /* prozentuale Breite für Responsivität */
+    margin: 0 auto;     /* zentrierung */
+}
+
+/* MAIN */
+
+main {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+section h1 {
+    font-family: "Inter";
+    font-size: 90px;
+    font-weight: 700;
+    margin: 5vw 35vw 0 5vw;
+    letter-spacing: -2.475px;
+    padding-right: 180px;
+}
+
+.numbers {
+    width: 60%;
+    margin: 10vh 0 0 5vw;
+}
+
+.numbers p:nth-of-type(1),
+.numbers p:nth-of-type(3),
+.numbers p:nth-of-type(5) {
+    font-family: "Work_Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.numbers p:nth-of-type(2),
+.numbers p:nth-of-type(4),
+.numbers p:nth-of-type(6) {
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.map svg {
+    padding-bottom: 60px;
+}
+
+img {
+    object-fit: contain;
+
+}
+
+.story2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* SECTION ACTION */
+
+.action {
+    min-height: 1870px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    color:black;
+    position: relative;
+}
+
+.action div h2 {
+    max-width: 450px;
+    font-family: Inter;
+    font-size: 83px;
+    font-weight: 700;
+    margin-top: 26rem;
+
+}
+
+.action div p {
+    max-width: 411px;
+    font-family: Work_Sans;
+}
+
+
+.action div p:nth-of-type(1) {
+    margin-bottom: 42rem;
+}
+
+.action img {
+    position: absolute;
+}
+
+
+div img:nth-of-type(1) {
+    right: 109px;
+    top: -50px;
+}
+
+div img:nth-of-type(2) {
+    left: 55px;
+    top: 280px;
+}
+
+div img:nth-of-type(3) {
+    top: 527px;
+    right: 0;
+}
+
+div img:nth-of-type(4) {
+    left: 220px;
+    bottom: 770px;
+}
+
+div img:nth-of-type(5) {
+    right: 164px;
+    bottom: 583px;
+}
+
+div img:nth-of-type(6) {
+    left: 0;
+    bottom: 320px;
+}
+
+div img:nth-of-type(7) {
+    right: 274px;
+    bottom: -73px;
+    z-index: 1;
+}
+
+/* SECTION GOLDEN BEAR */
+
+.goldenbear {
+    min-height: 1190px;
+    background-color: black;
+}
+
+
+.goldenbear .text {
+    padding-top: 150px;
+    max-width: 1082px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    
+}
+
+article .left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding:0 10rem 0 5rem;
+}
+
+article .right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.goldenbear p:nth-of-type(1) {
+    font-size: 20px;
+    font-family: Work_Sans;
+    justify-content: flex-start;
+}
+
+.goldenbear h2 {
+    font-family: Inter;
+    font-size: 83px;
+    line-height: 83px;
+}
+
+.right p:nth-of-type(1) {
+    font-size: 28px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.right p:nth-of-type(2) {
+    font-size: 19px;
+    font-family: "Work_Sans";
+    font-weight: 400;
+}
+
+/* IMAGES */
+
+.goldenbear .bears {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* --nötig für overflow und translate */
+    overflow: visible; /* --macht sichtbar, dass bild seinen container überlappt  */
+    transform: translateY(20%); /* --verschiebt vertikal */
+    z-index: 1;
+}
+
+.bears .bear2{
+    padding-top: 150px;
+    margin-left: -60px;
+    z-index: 1;
+}
+
+
+/* SECTION CALIFORNIA CALLING */
+
+.california .calling {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    transform: translate(5%, -35%);
+    z-index: 0;
+
+}
+
+/* SECTION POPPY */
+
+
+.poppybear {
+    /* min-height: 90%; */
+    background-color: white;
+}
+
+
+.poppybear .text {
+    max-width: 1082px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.poppybear p:nth-of-type(1) {
+    font-size: 20px;
+    font-family: Work_Sans;
+    justify-content: flex-start;
+}
+
+.poppybear h2 {
+    font-family: Inter;
+    font-size: 83px;
+    line-height: 83px;
+}
+
+/* IMAGES */
+
+.poppybear .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* --nötig für overflow und translate */
+    overflow: visible; /* --macht sichtbar, dass bild seinen container überlappt  */
+    transform: translateY(20%); /* --verschiebt vertikal */
+    z-index: 1;
+}
+
+.images .img1 {
+    padding-top: 150px;
+    margin-right: -90px;
+    z-index: 1;
+}
+
+.empty {
+    background-color: #e6e2e2;
+    min-height: 214px;
+}
+
+footer {
+    min-height: 50%;
+    background-color: black;
+}
+
