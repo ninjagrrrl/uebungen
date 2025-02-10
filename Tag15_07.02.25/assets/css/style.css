@@ -1,0 +1,606 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "Alegreya500";
+    src: url(../fonts/Alegreya_SC/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Alegreya400";
+    src: url(../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Alegreya_Sans";
+    src: url(../fonts/Alegreya_Sans/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Nixie";
+    src: url(../fonts/Nixie_One/NixieOne-Regular.ttf);
+}
+
+
+/* LANDINGPAGE */
+
+header {
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+.landingpage {
+    background: url(../img/divheader.jpg) no-repeat center / cover;
+    height: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+
+
+}
+
+header nav {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: Alegreya500;
+    font-size: 3.6rem;
+    padding: 40px 0 0 48px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+}
+
+.hero p:nth-of-type(1) {
+    font-family: Nixie;
+    font-size: 89px;
+    line-height: 89px;
+}
+
+.hero p:nth-of-type(2) {
+    font-family: Alegreya400;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-bottom: 130px;
+    padding-top: 10px;
+    color: #FFFFFF80;
+}
+
+.burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    padding: 40px 48px 0 0;
+
+}
+
+nav .burger div {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+
+}
+
+/* MAIN */
+/* PORTFOLIO */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 135px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 0 15px;
+}
+
+div h2 {
+    font-family: Alegreya_Sans;
+    font-size: 36px;
+    line-height: 39.6px;
+    color: #3A4F52;
+    margin-bottom: 15px;
+}
+
+.portfolio p:nth-of-type(1) {
+    color: #6A6A6A;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.heading_right {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 17px;
+    height: 20%;
+    border: 1px solid #3A4F52;
+}
+
+main a {
+    color: #3A4F52;
+
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gallery1 {
+    display: grid;
+    justify-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* -- die bilder müssen die grid-columns komplett ausfüllen, damit die gaps genau auf 30px gesetzt werden können, deshalb object-fit */
+}
+
+/* SERVICES */
+
+.serviceswrap {
+    background: url(../img/divservices.jpg) no-repeat center / cover;
+    min-height: 67vh;
+    padding: 80px 135px;
+
+}
+
+.services {
+    background: rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 15px;
+    max-width: 1440px;
+    margin: auto; --remember: der container braucht eine max-width mit margin-auto
+}
+
+.heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.heading2 p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.options div h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Alegreya_Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.services div h2 {
+    font-family: Alegreya_Sans;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 39.6px;
+    color: #FFF;
+
+}
+
+.options div p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 15px;
+
+}  
+
+.options div { /* -remember: flex muss auf container/elternelement nicht auf die img angewendet werden */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.options img {
+    margin-bottom: 16px;
+}
+
+.options {
+    display: flex;
+    gap: 30px;
+
+}
+
+/* BLOG */
+
+.blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 135px;
+    max-width: 1440px;
+    margin: auto;
+
+
+}
+
+.heading3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 0 15px;
+}
+
+.gallery2 {
+    display: flex;
+    justify-items: center;
+}
+
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.one img {
+    justify-content: center;
+    height: 230px;
+    width: auto;
+    padding: 0 15px 18px;
+    margin-bottom: 18px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px 18px;
+    margin-bottom: 18px;
+    width: 
+    360px;
+}
+
+.text h3 {
+    color: #3A4F52;
+    font-family: Alegreya_Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 16px;
+}
+
+.text h4 {
+    color: #6A6A6A;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 19px;
+}
+
+.blog p {
+    color: #6A6A6A;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+
+.text a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4DA7CA;
+}
+
+.two img {
+    height: 270px;
+    width: auto;
+    padding: 0 15px 18px;
+    margin-bottom: 18px;
+}
+
+.three img {
+    height: 360px;
+    width: auto;
+    padding: 0 15px 18px;
+    margin-bottom: 18px;
+}
+
+
+.gallery2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* PARALLAX */
+
+.parallax {
+    min-height: 47vh;
+    background: url(../img/divparallax.png) no-repeat center / cover;
+    background-attachment: fixed;
+    padding: 80px 135px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    color: white;
+}
+
+.parallax div {
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 15px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.parallax p {
+    font-family: "Alegreya_Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.6px;
+    margin-bottom: 60px;
+}
+
+.parallax a {
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: white 1px solid;
+    padding: 11px 17px;
+}
+
+/* TESTIMONIALS */
+
+
+
+.testimonials {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 135px;
+
+
+}
+
+
+.header h2 {
+    margin-bottom: 16px;
+}
+
+.testimonials .header {
+    margin-bottom: 60px;
+}
+
+
+.customers {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.cus {
+    padding: 26px;
+}
+
+.customers img {
+    margin-bottom: 15px;
+}
+
+.customers p:nth-of-type(1) {
+    margin-bottom: 23px;
+}
+
+.customers p:nth-of-type(2) {
+    font-weight: 700;
+}
+
+.testimonials p {
+    color: #6A6A6A;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+
+
+
+/* CONTACT */
+
+
+
+
+.contactwrap {
+    min-height: 61vh;
+    padding: 60px 135px;
+
+    background-image: url(../img/contactwrapper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contact {
+    background: rgba(0, 0, 0, 0.20);
+    min-height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 15px;
+    max-width: 1440px;
+    margin: auto; /* --remember: der container braucht eine max-width mit margin-auto */
+}
+
+.contact .heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options div h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Alegreya_Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.contact div h2 {
+    color: #FFF;
+
+}
+
+.contact div p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}  
+
+.options div { /* -remember: flex muss auf container/elternelement nicht auf die img angewendet werden */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.options img {
+    margin-bottom: 16px;
+}
+
+.options {
+    display: flex;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 38.5vw;
+
+}
+
+.contact .form input[type=text],
+.contact .form input[type=email] {
+    background-color: transparent;
+    padding: 9px 13px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-family: "Helvetica Neue";
+
+}
+
+.contact .form input[type=textarea] {
+    background-color: transparent;
+    padding: 9px 13px 27px 13px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-family: "Helvetica Neue";
+
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit input[type=submit] {
+    margin-bottom: 0px;
+    background-color: transparent;
+    color: white;
+    padding: 7px 13px;
+    width: 6vw;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-family: "Helvetica Neue";
+}
+
+::placeholder {
+    color: white;
+}
+
+/* .contact .form input {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+} */
+
